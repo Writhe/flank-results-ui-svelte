@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<meta charset='utf-8'>
+<title>Report</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+<link rel='stylesheet' href='/build/bundle.css'>
+<div id="results"></div>
+<script>
+	window.resultData = [
+		{
+			label: 'First group',
+			items: [
+				{
+					label: 'First item',
+					url: 'foo',
+				},
+				{
+					label: 'Second item',
+					url: 'bar',
+				},
+				{
+					label: 'Very long label - Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nemo adipisci culpa blanditiis rem odio mollitia neque quam? Incidunt, quam? Quod labore iste et mollitia excepturi non molestias ut rem?',
+				}
+			],
+		},
+		{
+			label: 'Second group',
+			items: [
+				{
+					label: 'First item of the second group',
+					url: 'baz',
+				}
+			]
+		}
+	];
+</script>
+<script defer src='/build/bundle.js'></script>
